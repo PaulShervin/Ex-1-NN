@@ -1,7 +1,7 @@
-<H3>ENTER YOUR NAME</H3>
-<H3>ENTER YOUR REGISTER NO.</H3>
+<H3>ENTER YOUR NAME : Paul Shervin P</H3>
+<H3>ENTER YOUR REGISTER NO :212224240111</H3>
 <H3>EX. NO.1</H3>
-<H3>DATE</H3>
+<H3>DATE : 20/11/25</H3>
 <H1 ALIGN =CENTER> Introduction to Kaggle and Data preprocessing</H1>
 
 ## AIM:
@@ -37,13 +37,52 @@ STEP 5:Normalizing the data<BR>
 STEP 6:Splitting the data into test and train<BR>
 
 ##  PROGRAM:
-TYPE YOUR CODE HERE
+```import pandas as pd
+import io
+from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.model_selection import train_test_split
+data=pd.read_csv("Churn_Modelling.csv")
+data
+data.head()
+X=data.iloc[:,:-1].values
+X
+Y=data.iloc[:,-1].values
+Y
+data.isnull().sum()
+data.duplicated()
+data.describe()
+df1 = data.drop(['Surname', 'Geography','Gender'], axis=1)
+df1
+scaler=MinMaxScaler()
+df1=pd.DataFrame(scaler.fit_transform(df1))
+print(df1)
+X_train ,X_test ,y_train,y_test=train_test_split(X,Y,test_size=0.2)
+X_train
+X_test
+print("Lenght of X_test ",len(X_test))
+```
 
 
 ## OUTPUT:
-SHOW YOUR OUTPUT HERE
-
-
+## DataSet:
+![op1](image.png)
+## X Values:
+![op2](image-1.png)
+## Y Values:
+![op3](image-2.png)
+## Null Values:
+![op4](image-3.png)
+## Duplicated Values:
+![op5](image-4.png)
+## Description:
+![op6](image-5.png)
+## Normalized Dataset:
+![op7](image-6.png)
+## Training Data:
+![op8](image-7.png)
+## Testing Data:
+![op9](image-8.png)
 ## RESULT:
 Thus, Implementation of Data Preprocessing is done in python  using a data set downloaded from Kaggle.
 
