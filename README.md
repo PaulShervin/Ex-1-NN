@@ -66,23 +66,51 @@ print("Lenght of X_test ",len(X_test))
 
 ## OUTPUT:
 ## DataSet:
-![op1](image.png)
+<img width="1155" height="503" alt="image" src="https://github.com/user-attachments/assets/ee48078d-4880-4703-a45a-d581ce50f861" />
+
+
 ## X Values:
-![op2](image-1.png)
+<img width="676" height="247" alt="image" src="https://github.com/user-attachments/assets/d0e458dc-fdbb-455a-bce7-c3f1467686e6" />
+
+
+
 ## Y Values:
-![op3](image-2.png)
+<img width="762" height="142" alt="image" src="https://github.com/user-attachments/assets/9a9a7017-8976-413c-a68e-8c873351265d" />
+
+
+
 ## Null Values:
-![op4](image-3.png)
+<img width="242" height="398" alt="image" src="https://github.com/user-attachments/assets/b1f7ba73-92a4-4d83-8714-0d838c3944f1" />
+
+
+
 ## Duplicated Values:
-![op5](image-4.png)
+<img width="304" height="321" alt="image" src="https://github.com/user-attachments/assets/ebfa47db-098c-4a1c-bd84-1c81ad6288f9" />
+
+
+
+
 ## Description:
-![op6](image-5.png)
+<img width="1495" height="306" alt="image" src="https://github.com/user-attachments/assets/999052af-9c20-4228-9455-6326eb09941c" />
+
+
+
+
 ## Normalized Dataset:
-![op7](image-6.png)
+<img width="1435" height="472" alt="image" src="https://github.com/user-attachments/assets/7c91eb5f-d1ae-46da-83c7-290c5b2102cd" />
+
+
+
 ## Training Data:
-![op8](image-7.png)
+<img width="692" height="222" alt="image" src="https://github.com/user-attachments/assets/34332a28-688c-47bb-93ae-8ac6fee01eca" />
+
+
+
 ## Testing Data:
-![op9](image-8.png)
+<img width="660" height="206" alt="image" src="https://github.com/user-attachments/assets/69889dfd-679d-4e8d-983c-dd3ff136bb12" />
+
+
+
 ## RESULT:
 Thus, Implementation of Data Preprocessing is done in python  using a data set downloaded from Kaggle.
 
